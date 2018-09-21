@@ -1,0 +1,104 @@
+.nav-wrapper {
+	background-color: green;
+}
+
+body {
+	background-color: #F0F8FF;
+	position:fixed;
+	background:url(../images/1.jpg);
+   -webkit-animation:100s scroll infinite linear;
+   -moz-animation:100s scroll infinite linear;
+   -o-animation:100s scroll infinite linear;
+   -ms-animation:100s scroll infinite linear;
+   animation:100s scroll infinite linear;
+   top:0;
+   left:0;
+   width:100%;
+	height:100%;
+}
+
+a:link { text-decoration: none; color : #FFF; border: 0px; -moz-outline-style: none;}
+a:active { text-decoration: underline; color : #FFF; border: 0px; -moz-outline-style: none;}
+a:visited { text-decoration: none; color : #FFF; border: 0px; -moz-outline-style: none;}
+a:hover { text-decoration: underline; color : #000; border: 0px; -moz-outline-style: none;} 
+a:focus { outline: none;-moz-outline-style: none;}
+
+html, body {
+	width: 100%;
+	height: 100%;
+	}
+
+	body {
+		overflow: scroll;
+		}
+	  
+  .page-header {
+	text-align:center;
+	color:#FFF !important;
+	font-family: Arial;
+	font-size: 30px;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+			   0px 8px 13px rgba(0,0,0,0.1),
+			   0px 18px 23px rgba(0,0,0,0.1);
+  }
+  
+.titles {
+	text-align:left;
+	color:#FFF !important;
+	font-family: Arial;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+			   0px 8px 13px rgba(0,0,0,0.1),
+				 0px 18px 23px rgba(0,0,0,0.1);
+	background-color: green;
+	font-size: 20px;
+}
+
+.bodies {
+	text-align:left;
+	color:#FFF !important;
+	font-family: Arial;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+			   0px 8px 13px rgba(0,0,0,0.1),
+				 0px 18px 23px rgba(0,0,0,0.1);
+	background-color: green;
+	font-size: 16px;
+}
+
+.section {
+	background-color: green;
+}
+  
+  
+  @-webkit-keyframes scroll{
+	100%{
+	  background-position:0px -3000px;
+	}
+  }
+  
+  @-moz-keyframes scroll{
+	100%{
+	  background-position:0px -3000px;
+	}
+  }
+  
+  @-o-keyframes scroll{
+	100%{
+	  background-position:0px -3000px;
+	}
+  }
+  
+  @-ms-keyframes scroll{
+	100%{
+	  background-position:0px -3000px;
+	}
+  }
+  
+  @keyframes scroll{
+	100%{
+	  background-position:0px -3000px;
+	}
+  }
+	
+	.note {
+		color: #263238;
+	}
