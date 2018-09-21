@@ -1,8 +1,8 @@
 var mongoose = require('mongoose');
 
 mongoose.Promise = Promise;
-//mongoose.connect('mongodb://heroku_c0g2w7r4:1gebku9hkjm2f4cufid074ke8j@ds117431.mlab.com:17431/heroku_c0g2w7r4');
-mongoose.connect("mongodb://localhost/week44Popu1ater");
+mongoose.connect('mongodb://heroku_2v8zmlfj:dso45oovm53fj1skkg2s0kdoa2@ds163822.mlab.com:63822/heroku_2v8zmlfj');
+//mongoose.connect("mongodb://localhost/week44Popu1ater");
 var db = mongoose.connection;
 
 db.on("error", function(error) 
